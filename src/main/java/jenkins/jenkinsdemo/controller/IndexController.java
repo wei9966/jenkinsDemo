@@ -13,7 +13,7 @@ public class IndexController {
     @RequestMapping("home")
     public String  toIndex()
     {
-        System.out.println("这是首页");
+        System.out.println("这是首1页");
         return "index";
     }
 }
