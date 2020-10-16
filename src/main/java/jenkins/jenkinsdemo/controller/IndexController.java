@@ -11,7 +11,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class IndexController {
 
     @RequestMapping("home")
-    public String  toIndex(){
+    public String  toIndex()
+    {
+        System.out.println("这是首页");
         return "index";
     }
 }
